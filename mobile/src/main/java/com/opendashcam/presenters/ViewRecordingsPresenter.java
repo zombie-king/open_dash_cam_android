@@ -6,8 +6,8 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.net.Uri;
 import android.os.Handler;
-import android.support.v4.content.FileProvider;
-import android.support.v4.content.LocalBroadcastManager;
+import androidx.core.content.FileProvider;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import android.util.Log;
 
 import com.opendashcam.DBHelper;
